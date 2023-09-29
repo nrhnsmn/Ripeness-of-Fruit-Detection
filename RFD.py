@@ -24,11 +24,11 @@ tf.gfile = tf.io.gfile
 
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = r'C:\Users\LG\Documents\models\research\object_detection\Images\labelmap.pbtxt'
+PATH_TO_LABELS = r'Detection models/labelmap.pbtxt'
 
 
 #The problem.
-detection_model1 = tf.saved_model.load(r'C:\Users\LG\Documents\models\research\object_detection\inference_graph1\saved_model')
+detection_model1 = tf.saved_model.load(r'Detection models/inference_graph1/saved_model')
 
 
 
